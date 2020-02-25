@@ -1,0 +1,1035 @@
+body {
+    font-family: 'Lato', 'sans-serif';
+}
+
+p {
+    color: #A8A8A8;
+}
+
+li {
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2F2F2F;
+}
+
+a:hover {
+    color: #26EFF4;
+    text-decoration: none;
+}
+/* /////////////////////////////////////////////////////
+/////////////// INDEX ////////////////////////////////*/
+.mainBackground {
+    margin: 0 auto;
+    width: 100%; 
+    height: 1124px;
+    padding: 30px; 
+    background-image: url('../images/main_background.svg');
+    background-repeat: no-repeat;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.bgWhite {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.display-1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.lead {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #2F2F2F;
+}
+
+.small, small {
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+
+.strongText {
+    margin-bottom: 10px;
+    color: #2F2F2F;
+}
+
+.btnDesign,
+.btnDevep {
+    background-color: #F4D426;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    margin: 5px auto;
+    display: block;
+}
+
+.btnDesign:hover {
+    background-color: #26EFF4;
+}
+
+.btnDevep:hover {
+    background-color: #F42685;
+    color: white;
+}
+
+.btnviewMore {
+    background-color: #F4D426;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    margin: 5px auto;
+    display: block;
+    text-align: center;
+}
+
+.btnviewMore:hover {
+    background-color: #F42685;
+    color: white;
+}
+
+.socialIcons {
+    margin-top: 30px;
+}
+
+.sIcon {
+    width: 35px;
+    height: 35px;
+    margin: 20px 0;
+}
+
+.contact-social-container {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.sIcon2 {
+    width: 35px;
+    height: 35px;
+    margin: 15px 0 40px;
+}
+
+.sIcon2:hover path {
+    fill: #F4D426;
+}
+
+.sIcon3 {
+    width: 35px;
+    height: 35px;
+    margin: 35px 0;
+}
+
+.sIcon3:hover path {
+    fill: #F4D426;
+}
+
+.svg-container {
+    display: inline;
+}
+
+.sIcon:hover path {
+    fill: #F4D426;
+}
+
+/* /////////////////////////////////////////////////////
+/////////////// ABOUT ////////////////////////////////*/
+.fixed-top.scrolled {
+    background-color: rgb(247, 247, 247) !important;
+    transition: background-color 150ms linear;
+    color: white;
+}
+
+.aboutImage {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.containerAbout {
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.fixed-top {
+    transition:background-color 200ms linear; 
+}
+
+.abc.ncol {
+    color: white !important;
+}
+
+.abc2.bcol {
+    color: #26EFF4 !important;
+}
+
+.abc3.ccol {
+    color: #F42685 !important;
+}
+
+
+.logo {
+    color: #F4D426;
+    font-size: 1.7em;
+}
+
+.aboutHeading {
+    text-align: center;
+}
+
+.info {
+    display:none;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    padding: .3rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #F4D426;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../images/icons/toggle.svg");
+}
+
+.colorBar {
+    stroke-width: 20px;
+    color: #F4D426;
+}
+
+
+hr {
+    width: 90%;
+}
+
+.aboutText {
+    text-align: center;
+}
+
+.footerImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.email,
+.copyright {
+    margin-bottom: 5px;
+    font-size: 80%;
+}
+
+.workHeading {
+    text-align: center;
+}
+
+.modal-header {
+    background-color: #F42685;
+}
+
+.modal-title {
+    color: white;
+    font-weight: 700;
+}
+
+.btnCallout {
+    border-radius: 15px;
+    font-size: 0.9em;
+    padding: 10px 25px;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    display: inline;
+    background-color: #26EFF4;
+    color: #2F2F2F;
+}
+
+.btnCallout:hover {
+    background-color: #2F2F2F;
+    color: white;
+}
+
+.btnSubmit {
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 15px;
+    margin: 15px auto;
+    display: inline-block;
+    width: 100%;
+    background-color: #2F2F2F;
+    color: white;
+    font-weight: 700;
+}
+
+.btnSubmit:hover {
+    background-color: #F42685;
+    color: white;
+}
+
+.btn.disabled, .btn:disabled {
+    opacity: 1;
+}
+
+.close {
+    color: white;
+    opacity: 100%;
+}
+
+.email-form {
+    width: 100%;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 2px 0 25px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin: auto;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #A8A8A8;
+    color: #2F2F2F;
+    background-color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 25px;
+    margin: 10px auto;
+}
+
+.contactHeading {
+    color: #2F2F2F;
+    font-weight: 800;
+}
+
+.disclaimer {
+    margin-bottom: 20px;
+}
+
+.contactInfo {
+    text-align: center;
+    color: #2F2F2F;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.emailLink {
+    text-align: center;
+    color: #2F2F2F;
+    margin-top: 15px;
+}
+
+
+/* /////////////////////////////////////////////////////
+/////////////// FRONT-END DEVELOPMENT + DESIGN ////////////////////////////////*/
+.jumbotron {
+    background-image: url('../images/fewd_background.svg');
+    height: 400px;
+}
+
+.designJumbo {
+    background-image: url('../images/design_background.svg');
+    height: 400px;
+}
+
+.projectJumbo {
+    background-image: url('../images/postproject_background.svg');
+    height: 200px;
+}
+
+.FEWDHeading {
+    color: #2F2F2F;
+    font-weight: 700;
+    margin-top: 60px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.projectHeading,
+.resumeHeading {
+    color: #2F2F2F;
+    font-weight: 700;
+    margin-top: 130px;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.DesignHeading {
+    color: #2F2F2F;
+    font-weight: 700;
+    margin-top: 90px;
+    font-size: 3em;
+    text-align: center;
+}
+
+.lead2 {
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #2F2F2F;
+    text-align: center;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.cardAccordion {
+    margin-top: 5px;
+}
+
+.card-img-top {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.btnCard {
+    border-radius: 15px;
+    font-size: 1em;
+    padding: 10px 25px;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    display: inline;
+    background-color: #F42685;
+    color: white;
+    text-decoration: none;
+}
+
+
+.btnCard:hover {
+    background-color: #F4D426;
+    color: #2F2F2F;
+    text-decoration: none;
+}
+
+.card-img-overlay {
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.5s;
+}
+
+.card-img-overlay:hover {
+    opacity: 1;
+    background-color: #000B1C;
+}
+
+.overlayMargin {
+    margin-top: 100px;
+}
+
+.card-img-overlay2:hover {
+	opacity: 1;
+}
+
+.card-text {
+    color: white;
+    margin: 20px auto 30px;
+}
+
+.descText {
+    color: #2F2F2F;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.desc {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.card-columns {
+    margin-bottom: 100px;
+}
+
+.workContainer {
+    width: 90%;
+    margin: auto;
+}
+
+.cardDesign {
+    background: #2F2F2F;
+    border-color: white;
+}
+
+.cardDesign img {
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.cardDesign img:hover {
+    opacity: .5;
+}
+
+
+/* /////////////////////////////////////////////////////
+/////////////// PROJECT ////////////////////////////////*/
+
+.columnsImages {
+    width: 80%;
+    margin: auto;
+}
+
+.projectImage {
+    margin: 30px auto 0;
+    width: 100%;
+    text-align: center;
+}
+
+.lead3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2F2F2F;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.projectText {
+    text-align: center;
+}
+
+.btnViewMore {
+    border-radius: 15px;
+    font-size: 0.9em;
+    padding: 10px 25px;
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+/* /////////////////////////////////////////////////////
+/////////////// RESUME ////////////////////////*/
+.resumeJumbo {
+    background-image: url('../images/resume_background.svg');
+    height: 300px;
+}
+
+.btn-link {
+    font-weight: 600;
+    color: #2F2F2F;
+    text-decoration: none;
+}
+
+.resumeContainer {
+    margin-top: 0;
+}
+
+.container .header {
+    border-radius: 15px;
+    background-color:#F42685;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin: 10px auto;
+}
+
+.header:hover {
+    background-color: #2F2F2F;
+}
+
+.header-Cyan:hover {
+    background-color: #2F2F2F;
+    color: white;
+}
+
+
+.container .content {
+    display: none;
+    padding : 0;
+    margin: 10px;
+}
+
+.header-Cyan {
+    background-color:#26EFF4;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2F2F2F;
+}
+
+.resumeHeading {
+    margin-top: 150px;
+}
+
+.resumeHeader1,
+.resumeHeader2,
+.resumeHeader3 {
+    font-size: 1.4em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.rpeopleHeader {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #2F2F2F;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.rpeopleHeader2 {
+    font-size: 1em;
+    margin-top: 5px;
+    color: #2F2F2F;
+    text-align: center;
+}
+
+.rdate {
+    margin-top: 10px;
+    color: #2F2F2F;
+    text-align: center;
+}
+
+.btext {
+    margin-bottom: 50px;
+}
+
+.rtext {
+    color: #2F2F2F;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.ulDec {
+    font-size: 0.9em;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    padding-left: 0;
+}
+
+.rowBorderCyan {
+    margin: 20px auto;
+    border-bottom: 5px solid #26EFF4;
+}
+
+.rowBorderYellow {
+    margin: 20px auto;
+    border-bottom: 5px solid #F42685;
+}
+
+.liWidth {
+    width: 100%;
+    margin: auto;
+}
+
+.list-group {
+    margin-bottom: 30px;
+}
+
+.list-group-item-action {
+    font-size: 0.9em;
+    padding: 5px 0;
+}
+
+/* /////////////////////////////////////////////////////
+/////////////// MEDIA QUERIES ////////////////////////*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .resumeHeading {
+        font-size: 3em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .mainBackground {
+        padding: 50px; 
+    }
+
+    .aboutHeading {
+        text-align: left;
+    }
+    
+
+    .socialIcons {
+        margin-top: 0;
+    }
+
+    .sIcon {
+        margin: 50px 5px 20px;
+    }
+    
+    .social-container .svg-container {
+        width: 80px;
+    }
+
+      
+    .container div {
+        width:100%;
+    }
+
+    .btnDesign,
+    .btnDevep {
+        display: inline;
+    }
+
+    .liWidth {
+        width: 70%;
+        margin: auto;
+    }
+
+    .btext {
+        margin-bottom: 50px;
+    }
+    
+    .rpeopleHeader2 {
+        margin-bottom: 5px;
+    }
+
+    .resumeHeading {
+        margin-top: 100px;
+        font-size: 2.2em;
+    }
+
+    .bgWhite {
+        width: 120%;
+        padding: 50px;
+    }
+    
+    .display-1 {
+        font-size: 5rem;
+    }
+
+    .lead {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .lead3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .projectText {
+        text-align: left;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    .small, small {
+        font-size: 85%;
+        font-weight: 400;
+    }
+
+    .mb-5, .my-5 {
+        margin-bottom: 3rem!important;
+    }
+
+    .btn-light {
+        font-size: 1.4em;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .btn-light:hover {
+        background-color: #E5C514;
+    }
+
+    .logo {
+        color: #F4D426;
+        font-size: 1.5em;
+    }
+    
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+    }
+
+    .info {
+        display: inline;
+        color: #2F2F2F;
+    }
+
+    .aboutText {
+        text-align: left;
+        width: 100%;
+    }
+
+    .btnFooter {
+        border-radius: 10px;
+        font-size: 1em;
+        padding: 10px 25px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        display: inline;
+    }
+
+    .btnCard {
+        border-radius: 15px;
+        font-size: 0.9em;
+        padding: 10px 25px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        display: inline;
+    }
+
+    .email,
+    .copyright {
+        margin-bottom: 0;
+    }
+
+    .disclaimer {
+        margin-bottom: 20px;
+    }
+    
+    .socialIconsFooter {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .containerAbout {
+        margin-top: 80px;
+    }   
+    
+    .FEWDHeading {
+        color: #2F2F2F;
+        font-weight: 700;
+        margin-top: 80px;
+        font-size: 4em;
+    }
+
+    .DesignHeading {
+        color: #2F2F2F;
+        font-weight: 700;
+        margin-top: 140px;
+        font-size: 4em;
+    }
+
+    .projectHeading {
+        color: #2F2F2F;
+        font-weight: 700;
+        margin-top: 100px;
+        font-size: 3em;
+    }
+
+    .jumbotron,
+    .designJumbo {
+        height: 500px;
+    }
+
+    .projectJumbo {
+        background-image: url('../images/postproject_background.svg');
+        height: 300px;
+    }
+
+    .resumeJumbo {
+        background-image: url('../images/resume_background.svg');
+        height: 300px;
+    }
+
+    .card-title {
+        font-size: 1.4rem;
+    }
+
+    .descText {
+        text-align: left;
+    }
+
+    .row {
+        margin-bottom: 50px;
+    }
+
+    .card-text{
+        font-size: 1em;
+        color: white;
+        margin: 30px auto 40px;
+    }
+    
+    .workHeading {
+        text-align: left;
+    }
+
+    .workContainer {
+        width: 56%;
+        margin: auto;
+    }
+
+    .btnViewMore {
+        border-radius: 15px;
+        font-size: 0.9em;
+        padding: 10px 25px;
+        margin: auto;
+        display: block;
+        width: 40%;
+    }
+
+    .container .content {
+        margin: 0;
+    }
+    .resumeContainer {
+        margin: auto;
+        padding: 0;
+    }
+
+    .btnviewMore {
+        width: 30%;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .btn-light {
+        border-radius: 10px;
+        font-size: 1.4em;
+        padding: 15px 25px;
+        margin-top: 1.5rem;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        margin-bottom: 3rem;
+        display: inline;
+    }
+    .btnFooter {
+        border-radius: 15px;
+        font-size: 1em;
+        padding: 10px 25px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        display: inline;
+    }
+
+    .btnCard {
+        border-radius: 15px;
+        font-size: 0.9em;
+        padding: 10px 25px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        display: inline;
+    }
+
+    .btnViewMore {
+        border-radius: 15px;
+        font-size: 0.9em;
+        padding: 10px 25px;
+        margin: auto;
+        display: block;
+        width: 30%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .resumeContainer {
+        margin: auto;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+
+    .resumeHeading {
+        margin-top: 150px;
+        font-size: 2.5em;
+    }
+
+    .display-1 {
+        font-size: 6rem;
+    }
+
+    .rseparator {
+        width: 70%;
+    }
+
+    p {
+        width: 70%;
+        margin: auto;
+    }
+
+    .bgWhite {
+        margin-top: 20px;
+    }
+
+    .svg-container {
+        width: 60px;
+    }
+
+    .social-container .svg-container {
+        margin: 0 10px;
+        width: 80px;
+    }
+
+    .footerImage {
+        width: 100% \9; 
+    }
+
+    .btnFooter {
+        border-radius: 15px;
+        font-size: 1em;
+        padding: 10px 25px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        display: inline;
+    }
+
+    .btnCard {
+        border-radius: 15px;
+        font-size: 0.9em;
+        padding: 10px 25px;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+        display: inline;
+    }
+
+    .btnViewMore {
+        border-radius: 15px;
+        font-size: 0.9em;
+        padding: 10px 25px;
+        margin: auto;
+        display: block;
+        width: 20%;
+    }
+
+    .card-text{
+        margin: 30px auto 40px;
+    }
+
+    .descText {
+        width: 70%;
+    }
+
+    .strongText {
+        margin-bottom: 5px;
+    }
+    
+}

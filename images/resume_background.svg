@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2000px" height="300px" viewBox="0 0 2000 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Resume_Background</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Resume_Background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#FAFAFA" x="-118" y="0" width="2149" height="323"></rect>
+        <path d="M2000,323 L2000,-1053 C2000,-1053 1657.2175,-1032.46079 1424.42093,-878.431732 C1191.62728,-724.402675 1013.96851,-611.447416 934.328271,-440.304276 C854.688031,-269.158825 744.418281,-77.4764736 719.912916,-29.5570415 C695.407552,18.3623907 566.75951,155.279676 530,323 L897.571687,323 C897.571687,323 1098.22307,171.566367 1181.95388,130.17594 C1275.21471,84.0800069 1477.83238,-14.7402439 1602.08263,-19.2909029 C1675.69235,-21.9857065 1857.35098,63.1455892 1822.62213,90.2438501 C1743.22475,152.196599 1271.26752,323 1271.26752,323 L2000,323 Z" id="Fill-5" fill="#F4D426"></path>
+    </g>
+</svg>
