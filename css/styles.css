@@ -36,6 +36,16 @@ a:hover {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .bgWhite {
@@ -79,6 +89,7 @@ a:hover {
     padding: 10px 20px;
     margin: 5px auto;
     display: block;
+    width: 90%;
 }
 
 .btnDesign:hover {
@@ -135,7 +146,7 @@ a:hover {
 .sIcon3 {
     width: 35px;
     height: 35px;
-    margin: 35px 0;
+    margin: 25px 0 5px;
 }
 
 .sIcon3:hover path {
@@ -166,6 +177,10 @@ a:hover {
 .containerAbout {
   margin: auto;
   margin-bottom: 0;
+}
+
+.containerAbout2 {
+    width: 90%;
 }
 
 .fixed-top {
@@ -333,8 +348,9 @@ hr {
 .contactInfo {
     text-align: center;
     color: #2F2F2F;
-    margin-top: 15px;
     font-size: 0.9em;
+    width: 90%;
+    margin: 40px auto 10px;
 }
 
 .emailLink {
@@ -669,11 +685,21 @@ hr {
     .mainBackground {
         padding: 50px; 
     }
+    .separator {
+        display: none;
+    }
+
+    .aboutImage {
+        margin-top: 120px;
+    }
 
     .aboutHeading {
         text-align: left;
     }
     
+    .contactInfo {
+        width: 70%;
+    }
 
     .socialIcons {
         margin-top: 0;
